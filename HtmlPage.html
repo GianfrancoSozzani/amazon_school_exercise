@@ -14,12 +14,16 @@
         .mine-padding {
             padding-inline: 7px;
         }
+
+        .mine-padding2 {
+            padding-inline: 20px;
+        }
     </style>
 </head>
-<body>
+<body class="bg-dark">
     <header>
-        <nav class="navbar navbar-dark navbar-expand-md bg-dark">
-            <div class="container-fluid">
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+            <div class="container-fluid m-5">
                 <a class="navbar-brand" href="#">Prime video</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -53,26 +57,98 @@
                         <li class="nav-item">
                             <button class="btn btn-outline-light border-0"><i class="bi bi-plus-square"></i> Iscrizioni</button>
                         </li>
-                        <!--<li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Dropdown
-                            </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>-->
+
                     </ul>
                     <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <button class="btn btn-outline-light border-0"><i class="bi bi-search"></i></button>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    IT
+                                </a>
+                                <ul class="dropdown-menu bg-dark">
+                                    <li><a class="dropdown-item text-white" href="#">EN</a></li>
+                                    <li><a class="dropdown-item text-white" href="#">GE</a></li>
+                                    <li><hr class="dropdown-divider bg-white"></li>
+                                    <li><a class="dropdown-item text-white" href="#">ES</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-outline-light border-0"><i class="bi bi-three-dots"></i></button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="btn btn-outline-light border-0"><i class="bi bi-person-circle fs-5"></i></button>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-primary">Iscriviti a Prime</button>
+                            </li>
+                        </ul>
+                        <span class="mine-padding2"></span>
                     </form>
                 </div>
             </div>
         </nav>
     </header>
+    <main class="mt-2">
+        <div class="container-fluid ms-2">
+            <div class="row gy-2">
+                <div class="col-lg-6">
+                    <div class="row gy-3">
+                        <div class="col-4">
+                            <div class="card text-bg-dark mb-2">
+                                <img src="https://placehold.co/800x600" class="card-img" alt="show1">
+                            </div>
+                            <div class="card text-bg-dark">
+                                <img src="https://placehold.co/800x1700" class="card-img" alt="show1">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card text-bg-dark mb-2">
+                                <img src="https://placehold.co/700x490" class="card-img" alt="show1">
+                            </div>
+                            <div class="card text-bg-dark mb-2">
+                                <img src="https://placehold.co/700x490" class="card-img" alt="show1">
+                            </div>
+                            <div class="card text-bg-dark mb-2">
+                                <img src="https://placehold.co/700x490" class="card-img" alt="show1">
+                            </div>
+                            <div class="card text-bg-dark">
+                                <img src="https://placehold.co/700x490" class="card-img" alt="show1">
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card text-bg-dark mb-2">
+                                <img src="https://placehold.co/700x1550" class="card-img" alt="show1">
+                            </div>
+                            <div class="card text-bg-dark">
+                                <img src="https://placehold.co/700x490" class="card-img" alt="show1">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-white">
+                    <div class="d-flex flex-column gap-3">
+                        <h2>Grandi film e serie TV</h2>
+                        <p>Iscriviti ad Amazon Prime per guardare film e serie TV di grande successo, incluse le produzioni Amazon Original pluripremiate. Amazon Prime include anche consegne illimitate e veloci su milioni di articoli e altro ancora.</p>
+                        <a class="btn btn-light" href="#" role="button">Cliente Amazon Prime? Accedi</a>
+                    </div>
+                    <div class="row">
+                        <div class="col-5">
+                            <hr>
+                        </div>
+                        <div class="col-2 text-center">
+                            <span>o</span>
+                        </div>
+                        <div class="col-5">
+                            <hr>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
